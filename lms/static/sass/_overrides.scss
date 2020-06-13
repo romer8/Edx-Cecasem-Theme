@@ -1,0 +1,131 @@
+// Make the background red
+$green-bg: #78be20;
+$blue-bg: #1f3150;
+$white-bg: white;
+$bluelight-bg: #0075b4;
+$course-bg: $green-bg;
+
+// Define a new Sass rule
+// Define a new Sass rule
+
+
+@media screen and (max-width: 767px) {
+  #main{
+    padding-bottom: 0;
+  }
+  #footer-edx-v3{
+   position: relative;
+   top: auto;
+   left: auto;
+   height: auto;
+  }
+}
+
+
+body{
+  margin:0;
+  overflow-x: hidden;
+  // padding:10px;
+  // padding-bottom:60px;
+}
+.global-header{
+  background-color: $blue-bg !important;
+  .main-header{
+      .nav-links{
+
+        .register-btn{
+          background: $green-bg !important;
+          border:2px solid $bluelight-bg !important;
+          color:$bluelight-bg !important;
+        }
+        .sign-in-btn{
+          color:$bluelight-bg !important;
+          background: $green-bg !important;
+        }
+      }
+  }
+
+}
+#main{
+  background-color: white;
+  height: 100%;
+  padding-bottom: 120px;
+  .global-header{
+    color: white;
+  }
+  // header{
+  //   background-color: white !important;
+  // }
+  .course-search{
+    text-align: center;
+    .search-input{
+      width: 60%;
+    }
+    .search-button{
+      background: $green-bg !important;
+      border:2px solid $bluelight-bg !important;
+      color:$bluelight-bg;
+    }
+  }
+  .courses-container{
+    .courses{
+      margin-left: 5%;
+      margin-left: 5%;
+      .courses-listing{
+        .courses-listing-item{
+          article{
+            background-color: $course-bg !important;
+            border: 2px solid $bluelight-bg;
+          }
+          // width: 20%;
+          .course-info{
+            height: auto;
+            .course-name{
+              .course-title{
+                height: auto;
+                color: $blue-bg;
+                font-weight: bold;
+              }
+              .course-organization{
+                color: $white-bg;
+                font-weight: bold;
+              }
+              .course-code{
+                color: $white-bg;
+                font-weight: bold;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+}
+
+#footer-edx-v3{
+  background-color: $blue-bg !important;
+  // position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  #footerContent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    .row{
+      margin: 0 auto;
+    }
+    .edx-footer-logo{
+      img{
+        width: 30% !important;
+      }
+    }
+
+  }
+
+
+}
