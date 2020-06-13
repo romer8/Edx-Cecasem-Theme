@@ -9,18 +9,6 @@ $course-bg: $green-bg;
 // Define a new Sass rule
 
 
-@media screen and (max-width: 767px) {
-  #main{
-    padding-bottom: 0;
-  }
-  #footer-edx-v3{
-   position: relative;
-   top: auto;
-   left: auto;
-   height: auto;
-  }
-}
-
 
 body{
   margin:0;
@@ -32,16 +20,40 @@ body{
   background-color: $blue-bg !important;
   .main-header{
       .nav-links{
+        .icons_nav_bar{
 
+          background: $bluelight-bg !important;
+          // border:2px solid $bluelight-bg !important;
+          color:$blue-bg !important;
+          padding: 5px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          text-decoration: none;
+
+        }
         .register-btn{
+          background: $green-bg !important;
+          color:$bluelight-bg !important;
+          border:2px solid $green-bg !important;
+
+        }
+        .sign-in-btn{
+          background: $green-bg !important;
+          color:$bluelight-bg !important;
+          border:2px solid $green-bg !important;
+
+        }
+        .register-btn:hover{
           background: $green-bg !important;
           border:2px solid $bluelight-bg !important;
           color:$bluelight-bg !important;
         }
-        .sign-in-btn{
+        .sign-in-btn:hover{
           color:$bluelight-bg !important;
+          border:2px solid $bluelight-bg !important;
           background: $green-bg !important;
         }
+
       }
   }
 
@@ -63,8 +75,13 @@ body{
     }
     .search-button{
       background: $green-bg !important;
-      border:2px solid $bluelight-bg !important;
+      border:2px solid $green-bg !important;
       color:$bluelight-bg;
+    }
+    .search-button:hover{
+      background: $green-bg !important;
+      border:2px solid $bluelight-bg !important;
+      color:$bluelight-bg !important;
     }
   }
   .courses-container{
