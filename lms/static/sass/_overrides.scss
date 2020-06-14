@@ -173,6 +173,17 @@ body{
     }
   }
 
+  //added for the profile page //
+  .wrapper-profile-section-one{
+    background-color: $blue-bg;
+    border-top: 5px solid #78be20;
+    label{
+      color:$green-bg;
+    }
+    span{
+      color:$white-bg;
+    }
+  }
 }
 
 #footer-edx-v3{
@@ -182,21 +193,26 @@ body{
   left: 0;
   width: 100%;
   height: 80px;
+  .icon{
+    color: $green-bg !important;
+  }
   #footerContent{
     display: flex;
     justify-content: center;
     width: 100%;
     flex-direction: column;
+
     .row{
       margin: 0 auto;
+
     }
     .edx-footer-logo{
       img{
         width: 30% !important;
       }
     }
-
   }
+
 }
 //Addition of the course //
 .courses_flex_container{
