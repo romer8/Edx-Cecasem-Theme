@@ -4,6 +4,7 @@ $blue-bg: #1f3150;
 $white-bg: white;
 $bluelight-bg: #0075b4;
 $course-bg: $green-bg;
+$gray-bg: #828282;
 
 // Define a new Sass rule
 // Define a new Sass rule
@@ -143,6 +144,46 @@ body{
     }
 
   }
+}
+//Addition of the course //
+.courses_flex_container{
+  display: flex;
+  #discovery-form{
+    flex:1 1 30%;
+    .search-facets{
+      width: 100%;
+      .search-facets-lists{
+        background-color:$blue-bg;
+        color:$white-bg;
+      }
 
+      .header-facet{
+        color:$green-bg;
+        border-top: 1px solid $green-bg;
+      }
+      button{
+        color:$gray-bg;
+        font-weight: bold;
+      }
+    }
+    .wrapper-search-input{
+      width: 100%;
+      button{
+        background: $green-bg !important;
+        border:2px solid $green-bg !important;
+        color:$bluelight-bg;
+      }
+      button{
+        background: $green-bg !important;
+        border:2px solid $bluelight-bg !important;
+        color:$bluelight-bg !important;
+      }
+    }
+
+  }
+  #courses_list_div{
+    flex:1 1 70%;
+    width: 100%;
+  }
 
 }
