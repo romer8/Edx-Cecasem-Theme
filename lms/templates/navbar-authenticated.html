@@ -32,7 +32,7 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
       <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
         <a class="${'active ' if reverse('dashboard') == request.path else ''}tab-nav-link" href="${reverse('dashboard')}"
              aria-current="${'page' if reverse('dashboard') == request.path else 'false'}">
-             ${_("Courses")}
+             <i class="fa fa-cubes" aria-hidden="true"></i>
         </a>
       </div>
       % if show_program_listing:
@@ -54,7 +54,7 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
       <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
           <a class="${'active ' if '/u/' in request.path  else ''}tab-nav-link" href="${reverse('learner_profile', args=[self.real_user.username])}"
              aria-current="${'page' if '/u/' in request.path else 'false'}">
-             ${_("Profile")}
+             <i class="fa fa-users" aria-hidden="true"></i>
           </a>
       </div>
     % endif
@@ -62,7 +62,7 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
       <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
           <a class="tab-nav-link" href="${marketing_link('COURSES')}"
              aria-current="${'page' if '/courses' in request.path else 'false'}">
-             ${_('Discover New')}
+             <i class="fa fa-leanpub" aria-hidden="true"></i>
           </a>
       </div>
     % endif
@@ -82,7 +82,9 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
       </div>
     % endif
     <div class="mobile-nav-item hidden-mobile nav-item">
-      <a class="help-link" href="${help_link}" target="_blank">${_("Help")}</a>
+      <a class="help-link" href="${help_link}" target="_blank">
+        <i class="fa fa-question" aria-hidden="true"></i>
+      </a>
     </div>
     <%include file="user_dropdown.html"/>
   </div>

@@ -3,7 +3,7 @@ $green-bg: #78be20;
 $blue-bg: #1f3150;
 $white-bg: white;
 $bluelight-bg: #0075b4;
-$course-bg: $green-bg;
+$course-bg: $bluelight-bg;
 $gray-bg: #828282;
 
 // Define a new Sass rule
@@ -21,17 +21,60 @@ body{
   background-color: $blue-bg !important;
   .main-header{
       .nav-links{
-        .icons_nav_bar{
-
-          background: $bluelight-bg !important;
-          // border:2px solid $bluelight-bg !important;
-          color:$blue-bg !important;
-          padding: 5px 20px;
-          border-radius: 5px;
-          cursor: pointer;
-          text-decoration: none;
-
+        .main{
+          a{
+            background: $bluelight-bg !important;
+            color:$blue-bg !important;
+            padding: 5px 20px !important;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-right: 2em;
+          }
         }
+        .secondary{
+          .help-link{
+            background: $green-bg !important;
+            color:$blue-bg !important;
+            padding: 5px 20px !important;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            // margin-right: 2em;
+            border:2px solid $green-bg !important;
+          }
+          .help-link:hover{
+            background: $green-bg !important;
+            color:$blue-bg !important;
+            padding: 5px 20px !important;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            // margin-right: 2em;
+            border:2px solid $blue-bg !important;
+          }
+          .user-image-frame{
+            background: $green-bg !important;
+            color:$blue-bg !important;
+            cursor: pointer;
+            border:2px solid $green-bg !important;
+          }
+          span{
+            color: $green-bg !important;
+            font-weight: bold;;
+          }
+        }
+        // .icons_nav_bar{
+        //
+        //   background: $bluelight-bg !important;
+        //   // border:2px solid $bluelight-bg !important;
+        //   color:$blue-bg !important;
+        //   padding: 5px 20px;
+        //   border-radius: 5px;
+        //   cursor: pointer;
+        //   text-decoration: none;
+        //
+        // }
         .register-btn{
           background: $green-bg !important;
           color:$bluelight-bg !important;
