@@ -3,7 +3,7 @@ $green-bg: #78be20;
 $blue-bg: #1f3150;
 $white-bg: white;
 $bluelight-bg: #0075b4;
-$course-bg: $bluelight-bg;
+$course-bg: $white-bg;
 $gray-bg: #828282;
 
 // Define a new Sass rule
@@ -22,7 +22,7 @@ body{
       .nav-links{
         .main{
           a{
-            background: $bluelight-bg !important;
+            background: $green-bg !important;
             color:$blue-bg !important;
             padding: 5px 20px !important;
             border-radius: 5px;
@@ -30,6 +30,7 @@ body{
             text-decoration: none;
             margin-right: 2em;
           }
+
         }
         .secondary{
           .nav-item{
@@ -119,6 +120,11 @@ body{
   .global-header{
     color: white;
   }
+  .btn{
+    background: $green-bg !important;
+    border:2px solid $green-bg !important;
+    color:$blue-bg;
+  }
   // header{
   //   background-color: white !important;
   // }
@@ -146,7 +152,13 @@ body{
         .courses-listing-item{
           article{
             background-color: $course-bg !important;
-            border: 2px solid $bluelight-bg;
+            // border: 2px solid $bluelight-bg;
+            border-radius: 20px;
+          }
+          .learn-more{
+            background: $green-bg !important;
+            color:$blue-bg !important;
+            border:2px solid $green-bg !important;
           }
           // width: 20%;
           .course-info{
@@ -187,14 +199,14 @@ body{
 }
 
 #footer-edx-v3{
-  background-color: $blue-bg !important;
+  background-color: $green-bg !important;
   // position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 80px;
   .icon{
-    color: $green-bg !important;
+    color: $blue-bg !important;
   }
   #footerContent{
     display: flex;
