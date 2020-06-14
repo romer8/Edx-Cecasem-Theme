@@ -14,8 +14,7 @@ $gray-bg: #828282;
 body{
   margin:0;
   overflow-x: hidden;
-  // padding:10px;
-  // padding-bottom:60px;
+
 }
 .global-header{
   background-color: $blue-bg !important;
@@ -33,6 +32,11 @@ body{
           }
         }
         .secondary{
+          .nav-item{
+            a{
+              color: $bluelight-bg !important;
+            }
+          }
           .help-link{
             background: $green-bg !important;
             color:$blue-bg !important;
@@ -62,6 +66,12 @@ body{
           span{
             color: $green-bg !important;
             font-weight: bold;;
+          }
+          .dropdown-user-menu{
+            background-color: $blue-bg !important;
+            .dropdown-item{
+              border-bottom:1px solid $green-bg !important;
+            }
           }
         }
         // .icons_nav_bar{
