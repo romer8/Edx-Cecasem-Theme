@@ -75,17 +75,7 @@ body{
             }
           }
         }
-        // .icons_nav_bar{
-        //
-        //   background: $bluelight-bg !important;
-        //   // border:2px solid $bluelight-bg !important;
-        //   color:$blue-bg !important;
-        //   padding: 5px 20px;
-        //   border-radius: 5px;
-        //   cursor: pointer;
-        //   text-decoration: none;
-        //
-        // }
+
         .register-btn{
           background: $green-bg !important;
           color:$bluelight-bg !important;
@@ -120,29 +110,37 @@ body{
   .global-header{
     color: white;
   }
+  .search-button{
+    background: $green-bg !important;
+    border:2px solid $green-bg !important;
+    color:$bluelight-bg;
+  }
+  .search-button:hover{
+    background: $green-bg !important;
+    border:2px solid $bluelight-bg !important;
+    color:$bluelight-bg !important;
+  }
   .btn{
     background: $green-bg !important;
     border:2px solid $green-bg !important;
     color:$blue-bg;
   }
-  // header{
-  //   background-color: white !important;
-  // }
+
   .course-search{
     text-align: center;
     .search-input{
       width: 60%;
     }
-    .search-button{
-      background: $green-bg !important;
-      border:2px solid $green-bg !important;
-      color:$bluelight-bg;
-    }
-    .search-button:hover{
-      background: $green-bg !important;
-      border:2px solid $bluelight-bg !important;
-      color:$bluelight-bg !important;
-    }
+    // .search-button{
+    //   background: $green-bg !important;
+    //   border:2px solid $green-bg !important;
+    //   color:$bluelight-bg;
+    // }
+    // .search-button:hover{
+    //   background: $green-bg !important;
+    //   border:2px solid $bluelight-bg !important;
+    //   color:$bluelight-bg !important;
+    // }
   }
   .courses-container{
     .courses{
@@ -170,11 +168,11 @@ body{
                 font-weight: bold;
               }
               .course-organization{
-                color: $white-bg;
+                color: $green-bg;
                 font-weight: bold;
               }
               .course-code{
-                color: $white-bg;
+                color: $green-bg;
                 font-weight: bold;
               }
             }
