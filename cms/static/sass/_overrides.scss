@@ -20,6 +20,11 @@ body{
   .wrapper-l,.wrapper-r{
     background-color: $blue-bg !important;
   }
+  .nav-item a{
+    background-color: $green-bg !important;
+    color: $blue-bg !important;
+    font-weight: bold;
+  }
 }
 #content{
   .wrapper-content-header{
@@ -29,7 +34,7 @@ body{
   .content-header {
     p, h1{
       color: $blue-bg !important;
-      
+
     }
 
   }
