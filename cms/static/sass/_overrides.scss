@@ -25,6 +25,10 @@ body{
     color: $blue-bg !important;
     font-weight: bold;
   }
+  .nav-not-signedin-help a{
+    background-color: $blue-bg !important;
+    color: $green-bg !important;
+  }
 }
 #content{
   .wrapper-content-header{
@@ -36,8 +40,26 @@ body{
       color: $blue-bg !important;
 
     }
+  }
+  .wrapper-content-cta{
+    .list-actions{
+      .action-item{
+        .action-primary{
+          background-color: $green-bg !important;
+          color: $blue-bg !important;
+        }
+        .action-secondary{
+          color: $green-bg !important;
+        }
+      }
+    }
 
   }
-
-
+}
+.wrapper-footer{
+  background-color: $green-bg !important;
+  p{
+    color: $blue-bg !important;
+    font-weight: bold;
+  }
 }
