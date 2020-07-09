@@ -14,13 +14,21 @@ $gray-bg: #828282;
 body{
   margin:0;
   overflow-x: hidden;
-
 }
 #view-top{
   background-color: $blue-bg !important;
   .wrapper-l,.wrapper-r{
     background-color: $blue-bg !important;
-
+  }
+}
+#content{
+  .wrapper-content-header{
+    background-color:$green-bg !important;
+    background-image:linear-gradient($green-bg,$green-bg,$green-bg);
+  }
+  .content-header{
+    color: $blue-bg !important;
+    
   }
 
 
