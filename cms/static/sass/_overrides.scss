@@ -26,9 +26,12 @@ body{
     background-color:$green-bg !important;
     background-image:linear-gradient($green-bg,$green-bg,$green-bg);
   }
-  .content-header{
-    color: $blue-bg !important;
-    
+  .content-header {
+    p, h1{
+      color: $blue-bg !important;
+      
+    }
+
   }
 
 
