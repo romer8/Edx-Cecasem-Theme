@@ -1,0 +1,27 @@
+// Make the background red
+$green-bg: #78be20;
+$blue-bg: #1f3150;
+$white-bg: white;
+$bluelight-bg: #0075b4;
+$course-bg: $white-bg;
+$gray-bg: #828282;
+
+// Define a new Sass rule
+// Define a new Sass rule
+
+
+
+body{
+  margin:0;
+  overflow-x: hidden;
+
+}
+#view-top{
+  background-color: $blue-bg !important;
+  .wrapper-header .wrapper-l, .wrapper-header .wrapper-r{
+    background-color: $blue-bg !important;
+
+  }
+
+
+}

@@ -176,6 +176,22 @@ body{
                 font-weight: bold;
               }
             }
+            .course-profile{
+              .intro-inner-wrapper{
+                .table{
+                  .intro{
+                    .main-cta{
+                      .register{
+                        background: $green-bg !important;
+                        color:$blue-bg !important;
+                        border:2px solid $green-bg !important;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
           }
 
         }
