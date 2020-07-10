@@ -16,7 +16,7 @@ body{
   overflow-x: hidden;
 }
 #view-top{
-  background-color: $blue-bg !important;  
+  background-color: $blue-bg !important;
 }
 #view-top, #main{
 
@@ -31,15 +31,32 @@ body{
     border-style: solid;
     border-color: transparent;
   }
+  .nav-account-user .title:hover, .nav-account-help .title:hover {
+    background-color: $blue-bg !important;
+    color: $green-bg !important;
+    font-weight: bold;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: transparent;
+  }
 
   .nav-item a{
     background-color: $green-bg !important;
     color: $blue-bg !important;
     font-weight: bold;
   }
+  .nav-item a:hover{
+    background-color: $blue-bg !important;
+    color: $green-bg !important;
+    font-weight: bold;
+  }
   .nav-not-signedin-help a{
     background-color: $blue-bg !important;
     color: $green-bg !important;
+  }
+  .nav-not-signedin-help:hover{
+    background-color: $green-bg !important;
+    color: $blue-bg !important;
   }
   .nav-sub{
     .nav-item{
@@ -55,8 +72,6 @@ body{
     }
   }
 }
-
-
 
 
 #content{
@@ -123,6 +138,20 @@ body{
     border-bottom: 1px solid $green-bg  !important;
     background-color: $blue-bg !important;
 
+  }
+  .action-item{
+    a{
+      background-color: $blue-bg !important;
+      color: $green-bg !important;
+      border-color: transparent !important;
+    }
+  }
+  .action-item:hover{
+    a{
+      background-color: $green-bg !important;
+      color: $blue-bg !important;
+      border-color: transparent !important;
+    }
   }
 
 }
