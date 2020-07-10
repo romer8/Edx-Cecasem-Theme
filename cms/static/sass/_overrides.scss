@@ -17,9 +17,19 @@ body{
 }
 #view-top{
   background-color: $blue-bg !important;
+
   .wrapper-l,.wrapper-r{
     background-color: $blue-bg !important;
   }
+  .nav-account-user .title, .nav-account-help .title {
+    background-color: $green-bg !important;
+    color: $blue-bg !important;
+    font-weight: bold;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: transparent;
+  }
+
   .nav-item a{
     background-color: $green-bg !important;
     color: $blue-bg !important;
@@ -31,6 +41,9 @@ body{
   }
 }
 #content{
+  .page-header{
+    color: $blue-bg;
+  }
   .wrapper-content-header{
     background-color:$green-bg !important;
     background-image:linear-gradient($green-bg,$green-bg,$green-bg);
@@ -44,6 +57,7 @@ body{
   .wrapper-content-cta{
     .list-actions{
       .action-item{
+
         .action-primary{
           background-color: $green-bg !important;
           color: $blue-bg !important;
