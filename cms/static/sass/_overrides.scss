@@ -39,6 +39,19 @@ body{
     background-color: $blue-bg !important;
     color: $green-bg !important;
   }
+  .nav-sub{
+    .nav-item{
+      a{
+        color: $blue-bg !important;
+        background-color: transparent !important;
+      }
+    }
+    .nav-item:hover{
+      a{
+        color: $green-bg !important;
+      }
+    }
+  }
 }
 
 
@@ -102,7 +115,7 @@ body{
       color:$white-bg !important;
       a{
         color:$white-bg !important;
-        
+
       }
     }
     border-bottom: 1px solid $green-bg  !important;
