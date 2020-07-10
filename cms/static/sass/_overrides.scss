@@ -17,6 +17,14 @@ body{
 }
 #view-top{
   background-color: $blue-bg !important;
+  .info-course{
+    span, a{
+      color: $green-bg !important;
+    }
+    span:hover, a:hover{
+      color: $blue-bg !important;
+    }
+  }
 }
 #view-top, #main{
 
@@ -50,6 +58,19 @@ body{
     color: $green-bg !important;
     font-weight: bold;
   }
+  .nav-item h3{
+    background-color: $green-bg !important;
+    color: $blue-bg !important;
+    font-weight: bold;
+    border-color: transparent;
+  }
+  .nav-item h3:hover{
+    background-color: $blue-bg !important;
+    color: $green-bg !important;
+    font-weight: bold;
+    border-color: transparent;
+
+  }
   .nav-not-signedin-help a{
     background-color: $blue-bg !important;
     color: $green-bg !important;
@@ -75,6 +96,7 @@ body{
 
 
 #content{
+
   .page-header{
     color: $blue-bg;
   }
