@@ -91,7 +91,6 @@ body{
   .wrapper-content-cta{
     .list-actions{
       .action-item{
-
         .action-primary{
           background-color: $green-bg !important;
           color: $blue-bg !important;
@@ -151,6 +150,23 @@ body{
       background-color: $green-bg !important;
       color: $blue-bg !important;
       border-color: transparent !important;
+    }
+  }
+
+  .msg{
+    h3{
+      color: $green-bg !important;
+    }
+    p{
+      color: $blue-bg !important;
+    }
+  }
+  .bit{
+    h3{
+      color: $green-bg !important;
+    }
+    p{
+      color: $blue-bg !important;
     }
   }
 
