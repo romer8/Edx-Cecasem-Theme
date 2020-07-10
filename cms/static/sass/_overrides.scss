@@ -16,7 +16,9 @@ body{
   overflow-x: hidden;
 }
 #view-top{
-  background-color: $blue-bg !important;
+  background-color: $blue-bg !important;  
+}
+#view-top, #main{
 
   .wrapper-l,.wrapper-r{
     background-color: $blue-bg !important;
