@@ -40,6 +40,10 @@ body{
     color: $green-bg !important;
   }
 }
+
+
+
+
 #content{
   .page-header{
     color: $blue-bg;
@@ -67,8 +71,46 @@ body{
         }
       }
     }
+  }
+  .list-courses{
+	   border: 1px solid $blue-bg;
+  }
+  .list-courses:hover{
+	   border: 1px solid $green-bg;
+  }
+  .course-item{
+    .course-link{
+        color:$green-bg !important;
+    }
+    .course-metadata{
+      color:$blue-bg !important;
+    }
+    .course-actions{
+      font-weight: bold;
+    }
+    border-bottom: 1px solid $blue-bg;
 
   }
+  .course-item:hover{
+    .course-link{
+        color:$green-bg !important;
+    }
+    .course-metadata{
+      color:$green-bg !important;
+    }
+    .course-actions{
+      color:$white-bg !important;
+      a{
+        color:$white-bg !important;
+        
+      }
+    }
+    border-bottom: 1px solid $green-bg  !important;
+    background-color: $blue-bg !important;
+
+  }
+
+
 }
 .wrapper-footer{
   background-color: $green-bg !important;
