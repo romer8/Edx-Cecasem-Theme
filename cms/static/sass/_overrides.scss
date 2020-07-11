@@ -181,6 +181,21 @@ body{
       border-color: transparent !important;
     }
   }
+  .action-item{
+    .action-discard{
+      color: $green-bg !important;
+      background-color: transparent !important;
+      border-color: transparent !important;
+    }
+  }
+  .action-item:hover{
+    .action-discard{
+      color: $blue-bg !important;
+      background-color: transparent !important;
+      border-color: transparent !important;
+    }
+  }
+
 
   .msg{
     h3{
@@ -356,6 +371,7 @@ body{
         background-color: $blue-bg !important;
         color: $green-bg !important;
         border-color: transparent !important;
+
       }
     }
     .action-item:hover{
