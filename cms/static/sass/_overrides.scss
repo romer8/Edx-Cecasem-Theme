@@ -167,6 +167,17 @@ body{
     background-color: $blue-bg !important;
 
   }
+  .actions-list:hover{
+    li{
+      .action-button{
+          background-color: $green-bg !important;
+          color: $blue-bg !important;
+          border-color: transparent !important;
+      }
+    }
+
+  }
+
   .action-item{
     a{
       background-color: $blue-bg !important;
