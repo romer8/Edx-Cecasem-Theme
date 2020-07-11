@@ -5,6 +5,7 @@ $white-bg: white;
 $bluelight-bg: #0075b4;
 $course-bg: $white-bg;
 $gray-bg: #828282;
+$gray-bgedx: #666;
 
 // Define a new Sass rule
 // Define a new Sass rule
@@ -238,6 +239,25 @@ body{
   }
 
 }
+.modal-actions{
+  li{
+    a{
+      background-color: $blue-bg !important;
+      color: $green-bg !important;
+      border-color: transparent !important;
+    }
+  }
+}
+
+[class*="view-"] .modal-window{
+  background-color: $blue-bg !important;
+  .title{
+    color:$green-bg !important;
+    font-weight: bold;
+  }
+}
+
+
 .wrapper-footer{
   background-color: $green-bg !important;
   p{
