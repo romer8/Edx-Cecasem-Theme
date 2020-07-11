@@ -243,6 +243,20 @@ body{
       border-color: transparent !important;
     }
   }
+  .add-section{
+    a{
+      background-color: $blue-bg !important;
+      color: $green-bg !important;
+      border-color: transparent !important;
+    }
+  }
+  .add-section:hover{
+    a{
+      background-color: $green-bg !important;
+      color: $blue-bg !important;
+      border-color: transparent !important;
+    }
+  }
   button{
     background-color: $blue-bg !important;
     color: $green-bg !important;
