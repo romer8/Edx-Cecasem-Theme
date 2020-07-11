@@ -304,6 +304,25 @@ body{
       border-color: transparent !important;
     }
   }
+  .add-pages{
+    p{
+      a{
+        background-color: $blue-bg !important;
+        color: $green-bg !important;
+        border-color: transparent !important;
+      }
+    }
+
+  }
+  .add-pages:hover{
+    p{
+      a{
+        background-color: $green-bg !important;
+        color: $blue-bg !important;
+        border-color: transparent !important;
+      }
+    }
+  }
   button{
     background-color: $blue-bg !important;
     color: $green-bg !important;
