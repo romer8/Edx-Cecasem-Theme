@@ -205,27 +205,45 @@ body{
         font-weight: bold;
       }
     }
-
+  }
+  .section-header{
+    h3{
+      span{
+        a{
+          color: $blue-bg !important;
+          font-weight: bold;
+        }
+      }
+    }
   }
   .section-header:hover{
-    span{
-      color: $bluelight-bg !important;
-      font-weight: bold;
+    h3{
+      span{
+        a{
+          color: $bluelight-bg !important;
+          font-weight: bold;
+        }
+      }
     }
+
   }
   .subsection-header{
     h3{
       color: $green-bg !important;
       font-weight: bold;
       span{
-        color: $green-bg !important;
+        a{
+          color: $green-bg !important;
+        }
       }
     }
     h3:hover{
       color: $blue-bg !important;
       font-weight: bold;
       span{
-        color: $blue-bg !important;
+        a{
+          color: $blue-bg !important;
+        }
       }
     }
   }
@@ -257,6 +275,20 @@ body{
       border-color: transparent !important;
     }
   }
+  .add-unit{
+    a{
+      background-color: $blue-bg !important;
+      color: $green-bg !important;
+      border-color: transparent !important;
+    }
+  }
+  .add-unit:hover{
+    a{
+      background-color: $green-bg !important;
+      color: $blue-bg !important;
+      border-color: transparent !important;
+    }
+  }
   button{
     background-color: $blue-bg !important;
     color: $green-bg !important;
@@ -267,6 +299,29 @@ body{
     color: $blue-bg !important;
     border-color: transparent !important;
   }
+  .unit-header{
+    h3{
+      span{
+        a{
+          color: $blue-bg !important;
+          border-color: transparent !important;
+        }
+      }
+    }
+  }
+  .unit-header:hover{
+    h3{
+      span{
+        a{
+          color: $green-bg !important;
+          border-color: transparent !important;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
 }
 .modal-actions{
   li{
