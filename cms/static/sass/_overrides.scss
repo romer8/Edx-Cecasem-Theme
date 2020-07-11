@@ -104,7 +104,6 @@ body{
 
 
 #content{
-
   .page-header{
     color: $blue-bg;
   }
@@ -244,7 +243,16 @@ body{
       border-color: transparent !important;
     }
   }
-
+  button{
+    background-color: $blue-bg !important;
+    color: $green-bg !important;
+    border-color: transparent !important;
+  }
+  button:hover{
+    background-color: $green-bg !important;
+    color: $blue-bg !important;
+    border-color: transparent !important;
+  }
 }
 .modal-actions{
   li{
