@@ -191,6 +191,21 @@ body{
       color: $blue-bg !important;
     }
   }
+  .section-header{
+    h3{
+      span{
+        color: $blue-bg !important;
+        font-weight: bold;
+      }
+    }
+
+  }
+  .section-header:hover{
+    span{
+      color: $bluelight-bg !important;
+      font-weight: bold;
+    }
+  }
   .subsection-header{
     h3{
       color: $green-bg !important;
@@ -203,8 +218,22 @@ body{
       color: $blue-bg !important;
       font-weight: bold;
       span{
-        color: $blue-bg !important;  
+        color: $blue-bg !important;
       }
+    }
+  }
+  .add-subsection{
+    a{
+      background-color: $blue-bg !important;
+      color: $green-bg !important;
+      border-color: transparent !important;
+    }
+  }
+  .add-subsection:hover{
+    a{
+      background-color: $green-bg !important;
+      color: $blue-bg !important;
+      border-color: transparent !important;
     }
   }
 
