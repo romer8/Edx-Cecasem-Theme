@@ -32,8 +32,15 @@ body{
   .wrapper-l,.wrapper-r{
     background-color: $blue-bg !important;
   }
-  .nav-account-user .title, .nav-account-help .title {
+  .nav-account-user .title{
     background-color: $green-bg !important;
+    color: $blue-bg !important;
+    font-weight: bold;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .nav-account-help .title{
     color: $blue-bg !important;
     font-weight: bold;
     border-width: 0.2em;
