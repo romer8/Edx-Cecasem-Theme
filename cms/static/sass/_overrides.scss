@@ -191,6 +191,22 @@ body{
       color: $blue-bg !important;
     }
   }
+  .subsection-header{
+    h3{
+      color: $green-bg !important;
+      font-weight: bold;
+      span{
+        color: $green-bg !important;
+      }
+    }
+    h3:hover{
+      color: $blue-bg !important;
+      font-weight: bold;
+      span{
+        color: $blue-bg !important;  
+      }
+    }
+  }
 
 }
 .wrapper-footer{
