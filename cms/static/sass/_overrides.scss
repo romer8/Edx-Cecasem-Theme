@@ -403,6 +403,20 @@ body{
               }
             }
           }
+          .actions{
+            a{
+              background-color: $blue-bg !important;
+              color: $green-bg !important;
+              border-color: transparent !important;
+            }
+          }
+          .actions{
+            a:hover{
+              background-color: $green-bg !important;
+              color: $blue-bg !important;
+              border-color: transparent !important;
+            }
+          }
         }
       }
     }
