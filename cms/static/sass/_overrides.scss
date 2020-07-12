@@ -391,6 +391,24 @@ body{
 
   .wrapper-content{
     .content-primary{
+      .wrapper-groups{
+        .partition-group-list{
+          .no-content{
+            p{
+              a{
+                background-color: $blue-bg !important;
+                color: $green-bg !important;
+                border-color: transparent !important;
+              }
+              a:hover{
+                background-color: $green-bg !important;
+                color: $blue-bg !important;
+                border-color: transparent !important;
+              }
+            }
+          }
+        }
+      }
       #settings_details{
         .group-settings{
           .note{
