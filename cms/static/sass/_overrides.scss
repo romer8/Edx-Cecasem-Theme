@@ -372,6 +372,41 @@ body{
     }
   }
 
+  .wrapper-content{
+    section{
+      article{
+        .textbooks-list{
+          .no-textbook-content{
+            p{
+              a{
+                background-color: $blue-bg !important;
+                color: $green-bg !important;
+                border-color: transparent !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .wrapper-content{
+    .content{
+      .content-primary{
+        .textbooks-list{
+          .no-textbook-content{
+            p{
+              a:hover{
+                background-color: $green-bg !important;
+                color: $blue-bg !important;
+                border-color: transparent !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 
 }
 .modal-actions{
