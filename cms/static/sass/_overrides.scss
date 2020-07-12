@@ -418,6 +418,26 @@ body{
             }
           }
         }
+        .list-input{
+          color: $white-bg;
+          #field-course-grading-range{
+            .grade-controls{
+              .grade-slider{
+                .grade-bar{
+                  .grades{
+                    .grade-specific-bar{
+                      background-color: $green-bg !important;
+                    }
+                    .ui-resizable{
+                      background-color: $blue-bg !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
       }
     }
     section{
