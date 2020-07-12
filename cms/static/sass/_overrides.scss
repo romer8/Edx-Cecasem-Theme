@@ -66,6 +66,23 @@ body{
     color: $green-bg !important;
     font-weight: bold;
   }
+  .nav-related{
+    ul{
+      .nav-item a{
+        color: $blue-bg !important;
+        background-color: transparent !important;
+        font-weight: bold;
+      }
+    }
+  }
+  .nav-related{
+    .nav-item a:hover{
+      color: $bluelight-bg !important;
+      background-color: transparent !important;
+      font-weight: bold;
+    }
+  }
+
   .nav-item h3{
     background-color: $green-bg !important;
     color: $blue-bg !important;
@@ -373,6 +390,22 @@ body{
   }
 
   .wrapper-content{
+    .content-primary{
+      #settings_details{
+        .group-settings{
+          .note{
+            .copy{
+              p{
+                a{
+                  color: $green-bg;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     section{
       article{
         .textbooks-list{
@@ -388,6 +421,7 @@ body{
         }
       }
     }
+
   }
   .wrapper-content{
     .content{
@@ -406,7 +440,9 @@ body{
       }
     }
   }
-
+  .wrapper-license .license-types .action.license-button {
+    padding: 0em;
+  }
 
 }
 .modal-actions{
