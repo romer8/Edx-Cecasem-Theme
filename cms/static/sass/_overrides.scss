@@ -391,6 +391,24 @@ body{
 
   .wrapper-content{
     .content-primary{
+      .export-controls{
+        h2{
+          .list-actions{
+            .item-action{
+              a{
+                background-color: $blue-bg !important;
+                color: $green-bg !important;
+                border-color: transparent !important;
+              }
+              a:hover{
+                background-color: $green-bg !important;
+                color: $blue-bg !important;
+                border-color: transparent !important;
+              }
+            }
+          }
+        }
+      }
       .wrapper-groups{
         .partition-group-list{
           .no-content{
