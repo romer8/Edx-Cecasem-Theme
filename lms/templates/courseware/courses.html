@@ -65,6 +65,7 @@
           % endif
 
           <div id="courses_list_div" class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
+            % if journal_info:
             <ul class="journal-list">
               % for bundle in journal_info.get('journal_bundles'):
               <li class="courses-listing-item">
@@ -79,6 +80,7 @@
               </li>
               %endfor
             </ul>
+            % endif
             <ul class="courses-listing courses-list">
               %for course in courses:
               <li class="courses-listing-item">
