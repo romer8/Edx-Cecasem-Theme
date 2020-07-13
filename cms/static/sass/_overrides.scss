@@ -133,6 +133,7 @@ body{
   .wrapper-content-header{
     background-color:$green-bg !important;
     background-image:linear-gradient($green-bg,$green-bg,$green-bg);
+
   }
   .content-header {
     p, h1{
@@ -390,6 +391,23 @@ body{
   }
 
   .wrapper-content{
+    .maintenance-header{
+      h2{
+        a{
+          color: $blue-bg !important;
+        }
+      }
+    }
+    .container{
+      .maintenance-list{
+        .view-list-container{
+          a{
+            color: $blue-bg !important;
+
+          }
+        }
+      }
+    }
     .content-primary{
       .export-controls{
         h2{
