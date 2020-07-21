@@ -144,7 +144,8 @@ body{
       }
       .input-group-btn{
         .btn-outline-primary:hover{
-
+          color:$blue-bg !important;
+          border-color: $green-bg !important;
         }
       }
     }
@@ -234,6 +235,21 @@ body{
   .instructor-dashboard-title{
     color:$blue-bg !important;
   }
+  input[type="button"]{
+    color:$green-bg !important;
+    background-color: $blue-bg !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    text-shadow: 0 1px 0 transparent !important;
+  }
+  input[type="button"]:hover{
+    color:$blue-bg !important;
+    background-color: $green-bg !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    text-shadow: 0 1px 0 transparent;
+  }
+
   .instructor-nav {
     .nav-item {
       .btn-link.active-section{
@@ -254,6 +270,87 @@ body{
     }
   }
 }
+.instructor-dashboard-wrapper-2{
+  section.idash-section#membership{
+    .batch-enrollment{
+      .role select{
+        background-color: $blue-bg;
+        color: $green-bg;
+        padding: 5px 35px 5px 5px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        font-weight: bold;
+        border-color: $blue-bg;
+      }
+      .role select:hover{
+        background-color: $green-bg;
+        color: $blue-bg;
+        padding: 5px 35px 5px 5px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        font-weight: bold;
+        border-color: $green-bg;
+      }
+    }
+    .member-lists-management{
+      .wrapper-member-select{
+        label{
+            color:$blue-bg !important;
+        }
+      }
+      .auth-list-container{
+         .member-list-widget{
+           .info{
+             color:$blue-bg !important;
+           }
+         }
+         .member-list-widget{
+           .member-list{
+             th{
+               color:$blue-bg !important;
+             }
+           }
+         }
+      }
+      .member-lists-selector{
+        background-color: $blue-bg;
+        color: $green-bg;
+        padding: 5px 35px 5px 5px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        font-weight: bold;
+        border-color: $blue-bg;
+      }
+      .member-lists-selector:hover{
+        background-color: $green-bg;
+        color: $blue-bg;
+        padding: 5px 35px 5px 5px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        font-weight: bold;
+        border-color: $green-bg;
+      }
+    }
+  }
+}
+
+
 .hd-3{
   color: $blue-bg !important;
 }
