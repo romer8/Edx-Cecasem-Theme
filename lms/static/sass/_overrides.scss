@@ -17,8 +17,16 @@ body{
 
 }
 .global-header{
+
+}
+.global-header{
   background-color: $blue-bg !important;
   .main-header{
+    .header-logo{
+      .course-header{
+        color: $green-bg !important;
+      }
+    }
       .nav-links{
         .main{
           a{
