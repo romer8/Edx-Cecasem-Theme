@@ -291,5 +291,52 @@ body{
     flex:1 1 70%;
     width: 100%;
   }
+}
+.wrapper-preview-menu{
+  .preview-actions{
+    .action-preview{
+      .action-preview-label{
+        color:$blue-bg !important;
+        font-weight: bold;
+      }
+      .action-preview-select{
+        background-color: $blue-bg;
+        color: $green-bg;
+        padding: 5px 35px 5px 5px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        font-weight: bold;
+        border-color: $blue-bg;
+      }
 
+    }
+  }
+}
+.content-wrapper{
+  .course-tabs{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          color:$blue-bg !important;
+        }
+      }
+      .nav-item.active{
+        .nav-link{
+          color:$blue-bg !important;
+          border-bottom-color:$green-bg !important;
+        }
+        color:$blue-bg !important;
+      }
+      .nav-item:hover{
+        .nav-link{
+          color:$blue-bg !important;
+          border-bottom-color: $green-bg !important
+        }
+      }
+    }
+  }
 }
