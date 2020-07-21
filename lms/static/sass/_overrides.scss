@@ -122,7 +122,7 @@ body{
     border-color: $blue-bg !important;
     padding: 1em;
     border-radius: 0.25em
-    
+
   }
   .has-breadcrumbs .breadcrumbs .all-topics:hover{
     color:$blue-bg !important;
@@ -299,6 +299,51 @@ body{
     border-bottom: 1px solid transparent !important;
   }
 }
+.wiki-wrapper {
+  section.wiki{
+    .article-functions{
+      .timestamp{
+        .label{
+          color:$green-bg !important;
+        }
+        .date{
+          color:$blue-bg !important;
+        }
+      }
+    }
+    .see-children{
+      a{
+        color:$blue-bg !important;
+      }
+      a:hover{
+        color:$green-bg !important;
+      }
+    }
+    .nav-tabs{
+      li.active a{
+        color:$green-bg !important;
+      }
+      a{
+        color:$blue-bg !important;
+      }
+      a:hover{
+        color:$green-bg !important;
+      }
+    }
+  }
+    .main-article{
+      h3{
+        color:$green-bg !important;
+      }
+      color:$blue-bg !important;
+    }
+    .breadcrumb li a {
+      color:$blue-bg !important;
+    }
+    .breadcrumb li a:hover {
+      color:$green-bg !important;
+    }
+  }
 
 #main{
   background-color: white;
