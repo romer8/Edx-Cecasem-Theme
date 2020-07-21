@@ -367,6 +367,14 @@ body{
     }
   }
 }
+.idash-section.active-section{
+  a{
+    color:$blue-bg !important;
+  }
+  a:hover{
+    font-weight: bold;
+  }
+}
 #content{
   .btn-primary{
     background-color: $green-bg !important;
