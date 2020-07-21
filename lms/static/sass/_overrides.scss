@@ -114,6 +114,81 @@ body{
 .wrapper-preview-menu{
   background-color: $green-bg !important;
 }
+
+
+
+#content{
+  .btn-primary{
+    background-color: $green-bg !important;
+    color:$blue-bg;
+    border-color: transparent;
+
+  }
+  .btn-primary:hover{
+    background-color: $blue-bg !important;
+    color:$green-bg;
+    border-color: transparent;
+
+  }
+  #course-container{
+    .page-header{
+      .page-header-search{
+        .search-form{
+          #search:hover{
+            border-color: $green-bg !important;
+          }
+          .input-group-btn{
+            .btn-outline-primary{
+              color:$green-bg !important;
+              border-color: $blue-bg !important;
+            }
+          }
+          .input-group-btn{
+            .btn-outline-primary:hover{
+              color:$blue-bg !important;
+              border-color: $green-bg !important;
+              border-width: medium;
+              background-color: transparent;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+    .page-content{
+      .page-content-secondary{
+        .section{
+          h3{
+            color:$blue-bg !important;
+          }
+          ul{
+            li{
+              a{
+                color:$green-bg !important;
+              }
+              a:hover{
+                font-weight: bold;
+              }
+            }
+          }
+          ol{
+            li{
+              a{
+                color:$green-bg !important;
+              }
+              a:hover{
+                font-weight: bold;
+              }
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
 #main{
   background-color: white;
   height: 100%;
@@ -121,20 +196,45 @@ body{
   .global-header{
     color: white;
   }
+  .block-tree{
+    .section{
+      border-bottom:1px solid $blue-bg;
+    }
+    .section:hover{
+      border-bottom:1px solid $green-bg;
+    }
+    .outline-button{
+      color:$blue-bg;
+      .fa{
+        color:$green-bg !important;
+      }
+    }
+    .outline-button:hover{
+      color:$green-bg;
+      font-weight: bold;
+      .fa{
+        color:$blue-bg !important;
+      }
+    }
+  }
+
   .search-button{
     background: $green-bg !important;
-    border:2px solid $green-bg !important;
-    color:$bluelight-bg;
+    color:$blue-bg;
   }
   .search-button:hover{
     background: $green-bg !important;
-    border:2px solid $bluelight-bg !important;
-    color:$bluelight-bg !important;
+    color:$blue-bg !important;
+    font-weight: bold;;
   }
   .btn{
     background: $green-bg !important;
-    border:2px solid $green-bg !important;
     color:$blue-bg;
+  }
+  .btn:hover{
+    background: $blue-bg !important;
+    color:$green-bg;
+    font-weight: bold;
   }
 
   .course-search{
@@ -142,16 +242,6 @@ body{
     .search-input{
       width: 60%;
     }
-    // .search-button{
-    //   background: $green-bg !important;
-    //   border:2px solid $green-bg !important;
-    //   color:$bluelight-bg;
-    // }
-    // .search-button:hover{
-    //   background: $green-bg !important;
-    //   border:2px solid $bluelight-bg !important;
-    //   color:$bluelight-bg !important;
-    // }
   }
   .courses-container{
     .courses{
@@ -312,6 +402,19 @@ body{
         font-weight: bold;
         border-color: $blue-bg;
       }
+      .action-preview-select:hover{
+        background-color: $blue-bg;
+        color: $green-bg;
+        padding: 5px 35px 5px 5px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        font-weight: bold;
+        border-color: black;
+      }
 
     }
   }
@@ -334,6 +437,7 @@ body{
       .nav-item:hover{
         .nav-link{
           color:$blue-bg !important;
+          font-weight: bold;
           border-bottom-color: $green-bg !important
         }
       }
