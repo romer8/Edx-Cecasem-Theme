@@ -229,7 +229,47 @@ body{
     }
   }
 }
-
+// Instructor Tab //
+.instructor-dashboard-content-2 {
+  .instructor-dashboard-title{
+    color:$blue-bg !important;
+  }
+  .instructor-nav {
+    .nav-item {
+      .btn-link.active-section{
+        border-bottom:3px solid $blue-bg !important;
+        color: $blue-bg !important;
+      }
+      .btn-link.active-section:hover{
+        border-bottom:3px solid $green-bg !important;
+        color: $green-bg !important;
+      }
+      .btn-link{
+        color: $blue-bg !important;
+      }
+      .btn-link:hover{
+        border-bottom:3px solid $green-bg !important;
+        color: $green-bg !important;
+      }
+    }
+  }
+}
+.hd-3{
+  color: $blue-bg !important;
+}
+.hd-4{
+  color:$green-bg !important;
+}
+.enrollment-wrapper{
+  table{
+    caption{
+      color:$green-bg !important;
+    }
+    tbody{
+      color: $blue-bg !important;
+    }
+  }
+}
 #content{
   .btn-primary{
     background-color: $green-bg !important;
