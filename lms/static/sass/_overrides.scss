@@ -115,7 +115,61 @@ body{
   background-color: $green-bg !important;
 }
 
+.page-header{
+  .has-breadcrumbs .breadcrumbs .all-topics{
+    color:$green-bg !important;
+    background-color: $blue-bg !important;
+    border-color: $blue-bg !important;
+    padding: 1em;
+    border-radius: 0.25em
+    
+  }
+  .has-breadcrumbs .breadcrumbs .all-topics:hover{
+    color:$blue-bg !important;
+    background-color: $green-bg !important;
+    border-color: $green-bg !important;
+    padding: 1em;
+    border-radius: 0.25em
+  }
+  .page-header-search{
+    .search-form{
+      #search:hover{
+        border-color: $green-bg !important;
+      }
+      .input-group-btn{
+        .btn-outline-primary{
+          color:$green-bg !important;
+          border-color: $blue-bg !important;
+        }
+      }
+      .input-group-btn{
+        .btn-outline-primary:hover{
 
+        }
+      }
+    }
+  }
+  .page-header-secondary{
+    .forum-actions, .forum-search{
+      .btn-outline-primary{
+        color:$green-bg !important;
+        border-color: $blue-bg !important;
+      }
+      .btn-outline-primary:hover{
+        color:$blue-bg !important;
+        border-color: $green-bg !important;
+        border-width: medium;
+        background-color: transparent;
+        font-weight: bold;
+      }
+    }
+    .forum-search{
+      #search:hover{
+        border-color: $green-bg !important;
+      }
+    }
+  }
+}
 
 #content{
   .btn-primary{
@@ -146,6 +200,7 @@ body{
       }
     }
   }
+
   #course-container{
     .breadcrumbs{
       .nav-item{
@@ -155,32 +210,8 @@ body{
         }
       }
     }
-    .page-header{
-      .page-header-search{
-        .search-form{
-          #search:hover{
-            border-color: $green-bg !important;
-          }
-          .input-group-btn{
-            .btn-outline-primary{
-              color:$green-bg !important;
-              border-color: $blue-bg !important;
-            }
-          }
-          .input-group-btn{
-            .btn-outline-primary:hover{
-              color:$blue-bg !important;
-              border-color: $green-bg !important;
-              border-width: medium;
-              background-color: transparent;
-              font-weight: bold;
-            }
-          }
-        }
-      }
-    }
-    .page-content{
 
+    .page-content{
       .page-content-secondary{
         .section{
           h3{
@@ -248,6 +279,27 @@ body{
     }
   }
 }
+.forum-nav{
+  color:$green-bg !important;
+  .btn-link{
+    color:$blue-bg !important;
+  }
+  .btn-link:hover{
+    color:$green-bg !important;
+  }
+  .forum-nav-browse-menu-wrapper{
+    background-color: $blue-bg !important;
+  }
+  .forum-nav-browse-title:hover{
+    background-color: $green-bg !important;
+    color: $blue-bg !important;
+    border-bottom: 1px solid $blue-bg !important;
+  }
+  .forum-nav-browse-title{
+    border-bottom: 1px solid transparent !important;
+  }
+}
+
 #main{
   background-color: white;
   height: 100%;
@@ -255,7 +307,6 @@ body{
   .global-header{
     color: white;
   }
-
 
 
   .block-tree{
