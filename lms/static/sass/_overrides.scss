@@ -130,7 +130,31 @@ body{
     border-color: transparent;
 
   }
+  .tabs{
+    .tab{
+      a .active{
+        color:$blue-bg !important;
+        border-bottom-color:$blue-bg;
+      }
+      a{
+        color:$blue-bg !important;
+      }
+      a:hover{
+        color:$green-bg !important;
+        font-weight: bold;
+        border-bottom-color:$green-bg;
+      }
+    }
+  }
   #course-container{
+    .breadcrumbs{
+      .nav-item{
+        color:$blue-bg !important;
+        a{
+          color:$green-bg !important;
+        }
+      }
+    }
     .page-header{
       .page-header-search{
         .search-form{
@@ -156,6 +180,7 @@ body{
       }
     }
     .page-content{
+
       .page-content-secondary{
         .section{
           h3{
@@ -189,6 +214,40 @@ body{
   }
 }
 
+.course-bookmarks {
+  .bookmarks-results-list {
+    .bookmarks-results-list-item:hover{
+      border-color:$blue-bg;
+      .list-item-breadcrumbtrail{
+        color:$green-bg !important;
+      }
+    }
+    .bookmarks-results-list-item::before{
+        color:$green-bg !important;
+    }
+    .bookmarks-results-list-item{
+      .list-item-breadcrumbtrail{
+        color:$blue-bg !important;
+      }
+    }
+    .list-item-left-section{
+      color:$blue-bg !important;
+    }
+    .list-item-left-section:hover{
+      color:$blue-bg !important;
+      font-weight: bold;
+    }
+    .list-item-date{
+      color:$blue-bg !important;
+    }
+    .list-item-right-section{
+      color:$green-bg !important;
+    }
+    .list-item-right-section:hover{
+      color:$blue-bg !important;
+    }
+  }
+}
 #main{
   background-color: white;
   height: 100%;
@@ -196,6 +255,9 @@ body{
   .global-header{
     color: white;
   }
+
+
+
   .block-tree{
     .section{
       border-bottom:1px solid $blue-bg;
