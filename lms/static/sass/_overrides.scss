@@ -375,6 +375,12 @@ body{
     font-weight: bold;
   }
 }
+.open-response-assessment-block {
+  .ora-summary-title{
+    color:$green-bg !important;
+    font-weight: bold;
+  }
+}
 #content{
   .btn-primary{
     background-color: $green-bg !important;
