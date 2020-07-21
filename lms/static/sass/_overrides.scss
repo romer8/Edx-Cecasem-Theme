@@ -80,6 +80,13 @@ body{
             background-color: $blue-bg !important;
             .dropdown-item{
               border-bottom:1px solid $green-bg !important;
+              a{
+                color:$green-bg !important;
+              }
+              a:hover{
+                background-color: $green-bg !important;
+                color:$blue-bg !important;
+              }
             }
           }
         }
