@@ -4,7 +4,7 @@ $blue-bg: #1f3150;
 $white-bg: white;
 $bluelight-bg: #0075b4;
 $course-bg: $white-bg;
-$gray-bg: #828282;
+$gray-bg: #5e5e5e;
 
 // Define a new Sass rule
 // Define a new Sass rule
@@ -171,6 +171,65 @@ body{
   }
 }
 
+//Progress tab lms section
+.h2-2{
+  color:$blue-bg !important;
+  font-weight: bold;
+}
+.wrap-instructor-info .instructor-info-action{
+  color:$green-bg !important;
+  background-color: $blue-bg !important;
+}
+.wrap-instructor-info .instructor-info-action:hover{
+  color:$blue-bg !important;
+  background-color: $green-bg !important;
+}
+.wrapper-msg.wrapper-auto-cert .auto-cert-message{
+  border-left: 3px solid $green-bg !important;
+}
+.wrapper-msg{
+  .msg-content{
+    .title{
+      color:$green-bg !important;
+    }
+  }
+  .copy{
+    color:$blue-bg !important;
+  }
+}
+
+.profile-wrapper{
+  .course-info > .chapters > section {
+    .hd{
+      color:$green-bg !important;
+      border-right:1px dashed $blue-bg !important;
+    }
+  }
+  .sections > div{
+    .scores dd:hover{
+      font-weight: bold;
+    }
+    p{
+     color:$gray-bg !important;
+    }
+    .hd{
+      a{
+        color:$blue-bg !important;
+      }
+      a:hover{
+        font-weight: bold;
+      }
+      span{
+        color:$green-bg !important;
+      }
+      span:hover{
+        font-weight: bold;
+
+      }
+    }
+  }
+}
+
 #content{
   .btn-primary{
     background-color: $green-bg !important;
@@ -192,6 +251,7 @@ body{
       }
       a{
         color:$blue-bg !important;
+        border-bottom-color:$blue-bg;
       }
       a:hover{
         color:$green-bg !important;
