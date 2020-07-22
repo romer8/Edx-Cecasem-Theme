@@ -121,6 +121,60 @@ body{
 .wrapper-preview-menu{
   background-color: $green-bg !important;
 }
+.xmodule_display.xmodule_ProblemBlock {
+  div.problem button.btn-default{
+    background-color: transparent !important;
+    color: $green-bg !important;
+  }
+  div.problem button:hover{
+    border-color: $green-bg !important;
+    color: $blue-bg !important;
+    font-weight: bold;
+  }
+
+}
+.xmodule_display.xmodule_SequenceModule {
+  h2{
+    color:$blue-bg !important;
+    font-weight: bold !important;
+  }
+  p{
+    color: $blue-bg !important;
+  }
+  .sequence-nav-button{
+    color:$blue-bg !important;
+    font-weight: bold;
+    span{
+      color:$blue-bg !important;
+    }
+  }
+  .sequence-nav-button:hover{
+    color:$green-bg !important;
+    font-weight: bold;
+    border-bottom: 3px solid $green-bg !important;
+    span{
+      color:$green-bg !important;
+    }
+  }
+  .sequence-nav {
+    button.active{
+      color:$blue-bg !important;
+      border-bottom: 3px solid $green-bg !important;
+    }
+    button.active:hover{
+      color:$green-bg !important;
+      border-bottom: 3px solid $green-bg !important;
+    }
+    button{
+      color:$blue-bg !important;
+    }
+    button:hover{
+      color:$green-bg !important;
+      border-bottom: 3px solid $green-bg !important;
+    }
+  }
+
+}
 
 .page-header{
   .has-breadcrumbs .breadcrumbs .all-topics{
@@ -137,6 +191,21 @@ body{
     border-color: $green-bg !important;
     padding: 1em;
     border-radius: 0.25em
+  }
+  .has-breadcrumbs{
+    .breadcrumbs{
+      .nav-item{
+        a{
+          color:$blue-bg !important;
+        }
+        a:hover{
+          color:$green-bg !important;
+        }
+        a:visited{
+          color:$blue-bg !important;
+        }
+      }
+    }
   }
   .page-header-search{
     .search-form{
@@ -178,7 +247,13 @@ body{
     }
   }
 }
-
+.xblock {
+  .xblock{
+    h2{
+      color:$green-bg !important;
+    }
+  }
+}
 //Progress tab lms section
 .h2-2{
   color:$blue-bg !important;
@@ -387,6 +462,50 @@ body{
     color:$green-bg !important;
     font-weight: bold;
   }
+}
+.openassessment {
+  .is--in-progress.openassessment__steps__step{
+    border-top-color: $green-bg !important;
+  }
+  .openassessment__steps__step.is--in-progress{
+    .step__status__value{
+      background-color: $blue-bg !important;
+    }
+  }
+}
+// page mis cursos //
+.dashboard {
+  .main-container{
+    .my-courses {
+      .course {
+        .details {
+          .wrapper-course-details {
+            .course-title {
+              a{
+                color:$blue-bg !important;
+              }
+              a:hover{
+                color:$green-bg !important;
+              }
+            }
+          }
+          .enter-course{
+            border-color: $blue-bg !important;
+            color:$green-bg !important;
+          }
+          .enter-course:hover{
+            border-color: $green-bg !important;
+            color:$blue-bg !important;
+            background-color: $green-bg !important;
+          }
+
+        }
+      }
+    }
+
+  }
+
+
 }
 #content{
   .btn-primary{
@@ -604,13 +723,17 @@ body{
     font-weight: bold;;
   }
   .btn{
-    background: $green-bg !important;
-    color:$blue-bg;
+    background: $blue-bg !important;
+    color:$green-bg !important;
+    padding: 0.5em;
   }
   .btn:hover{
-    background: $blue-bg !important;
-    color:$green-bg;
+    background: $green-bg !important;
+    color: $blue-bg !important;
+    padding: 0.5em;
     font-weight: bold;
+
+
   }
 
   .course-search{
